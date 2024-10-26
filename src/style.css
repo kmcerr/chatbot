@@ -1,4 +1,4 @@
-/* Reset some default styles */
+/* Reset styles */
 * {
     margin: 0;
     padding: 0;
@@ -43,7 +43,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #357a38; /* Darker green for better contrast */
 }
 
 footer {
