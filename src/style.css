@@ -20,18 +20,20 @@ body {
 
 /* Header styling */
 header {
-    background-color: #4CAF50;
+    background-color: #357a38; /* Darker green for improved contrast */
     color: white;
     width: 100%;
     padding: 1rem 0;
     text-align: center;
 }
 
+/* Main styling */
 main {
     padding: 2rem;
     text-align: center;
 }
 
+/* Button styling */
 button {
     padding: 10px 20px;
     font-size: 16px;
@@ -43,9 +45,10 @@ button {
 }
 
 button:hover {
-    background-color: #357a38; /* Darker green for better contrast */
+    background-color: #2e7d32; /* Darker shade for hover */
 }
 
+/* Footer styling */
 footer {
     margin-top: 20px;
     font-size: 0.8em;
@@ -87,6 +90,11 @@ footer {
     cursor: pointer;
 }
 
+#send-button:hover {
+    background-color: #2e7d32; /* Darker shade for hover */
+}
+
+/* Message styling */
 .user-message {
     text-align: right;
     color: blue;
