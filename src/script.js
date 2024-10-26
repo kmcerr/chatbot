@@ -19,9 +19,10 @@ sendButton.addEventListener("click", async () => {
 		const data = await response.json();
 		displayMessage(data.reply, "bot");
 	} catch (error) {
-		console.error("Error:", error);
+		console.error("Error parsing JSON response:", error);
 		displayMessage("Sorry, something went wrong.", "bot");
 	}
+
 });
 
 function displayMessage(message, sender) {
