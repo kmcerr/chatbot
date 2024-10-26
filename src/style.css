@@ -90,10 +90,6 @@ footer {
     cursor: pointer;
 }
 
-#send-button:hover {
-    background-color: #2e7d32; /* Darker shade for hover */
-}
-
 /* Message styling */
 .user-message {
     text-align: right;
